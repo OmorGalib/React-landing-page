@@ -4,6 +4,15 @@ import Language from '../assets/Language.png';
 import Dropdown from '../assets/dropdown.png';
 
 const Header = () => {
+  
+  const [language, setLanguage] = React.useState('EN');
+
+
+  const handleLanguageChange = () => {
+ 
+    setLanguage(language === 'EN' ? 'FR' : 'EN');
+  };
+
   return (
     <nav className="bg-white">
       <div className="container mx-auto px-4 py-4 md:py-6">
@@ -33,9 +42,9 @@ const Header = () => {
 
           {/* Right side */}
           <div className="flex items-center">
-            <div className="flex flex-row mr-5">
+            <div className="flex flex-row mr-5" onClick={handleLanguageChange}>
               <img src={Language} alt="Language" className="h-6 w-auto" />
-              <span className="font-medium">EN</span>
+              <span className="font-medium">{language}</span>
             </div>
             <a href="#" className="hidden md:block mr-5">Contact Sales</a>
             <a href="#" className="hidden md:block mr-5">Login</a>
