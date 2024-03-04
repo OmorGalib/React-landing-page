@@ -7,13 +7,13 @@ const Div1 = () => {
       <div className="container mx-auto flex flex-col px-4 max-w-4xl">
           <h1 className="text-2xl md:text-3xl font-bold mb-4 text-blue-950">Built for the way you work</h1>
           <div className="container mx-auto flex justify-around items-center max-w-4xl m-5">
-             <button className="bg-zinc-200 text-black text-sm text-center p-2 rounded-full border-current">Diagramming</button>
-             <button className="bg-zinc-200 text-black text-sm text-center p-2 rounded-full border-current">Meetings & Workshops</button>
-             <button className="bg-zinc-200 text-black text-sm text-center p-2 rounded-full border-current">Scrum Events</button>
-             <button className="bg-zinc-200 text-black text-sm text-center p-2 rounded-full border-current">Mapping</button>
-             <button className="bg-zinc-200 text-black text-sm text-center p-2 rounded-full border-current">Research & Design</button>
-             <button className="bg-zinc-200 text-black text-sm text-center p-2 rounded-full border-current">Strategic Planning</button>
              <button className="bg-zinc-200 text-black text-sm text-center p-2 rounded-full border-current">Brainstorming</button>
+             <button className="bg-white text-black text-sm text-center p-2 rounded-full border-current">Diagramming</button>
+             <button className="bg-white text-black text-sm text-center p-2 rounded-full border-current">Meetings & Workshops</button>
+             <button className="bg-white text-black text-sm text-center p-2 rounded-full border-current">Scrum Events</button>
+             <button className="bg-white text-black text-sm text-center p-2 rounded-full border-current">Mapping</button>
+             <button className="bg-white text-black text-sm text-center p-2 rounded-full border-current">Research & Design</button>
+             <button className="bg-white text-black text-sm text-center p-2 rounded-full border-current">Strategic Planning</button>
           </div>
           <div className="container mx-auto flex flex-col md:flex-row justify-between px-4 max-w-4xl mt-5 mb-5">
            {/* Left side */}
