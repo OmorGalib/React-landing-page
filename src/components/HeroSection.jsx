@@ -18,7 +18,7 @@ const HeroSection = () => {
 
   return (
     <section className="bg-gray-100 py-12 md:py-16">
-      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 max-w-5xl mx-auto">
+      <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 max-w-4xl">
         {/* Left side */}
         <div className="flex flex-col md:w-5/12 mb-8 md:mb-0">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-blue-950">Take ideas from better to best</h1>
@@ -29,12 +29,14 @@ const HeroSection = () => {
           </form>
           <p className="text-xs mb-4">Collaborate with your team within minutes</p>
           <div className="flex items-center justify-between">
-            <div className="flex items-center">
-              <img src={Star} alt="" className="w-4 h-4" />
-              <img src={Star} alt="" className="w-4 h-4" />
-              <img src={Star} alt="" className="w-4 h-4" />
-              <img src={Star} alt="" className="w-4 h-4" />
-              <img src={HalfStar} alt="" className="w-4 h-4" />
+            <div className="flex flex-col">
+              <div className="flex items-center">
+                <img src={Star} alt="" className="w-4 h-4" />
+                <img src={Star} alt="" className="w-4 h-4" />
+                <img src={Star} alt="" className="w-4 h-4" />
+                <img src={Star} alt="" className="w-4 h-4" />
+                <img src={HalfStar} alt="" className="w-4 h-4" />
+              </div>
               <p className="text-xs ml-1">Based on 5149+ reviews:</p>
             </div>
             <div className="flex items-center">

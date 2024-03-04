@@ -8,9 +8,9 @@ import Okta from '../assets/okta.png';
 const TrustedSection = () => {
   return (
     <section className="bg-gray-100 py-12 md:py-16">
-      <div className="container mx-auto flex flex-col items-center px-4 max-w-5xl">
+      <div className="container mx-auto flex flex-col items-center px-4 max-w-4xl">
         <p className="text-xs font-light mb-5">Trusted by 45M+ users</p>
-        <div className="flex flex-row items-center justify-evenly mt-5 mb-5">
+        <div className="flex flex-row items-center justify-evenly mt-5 mb-2">
           <img src={Walmart} alt="Walmart" className="w-50 h-30" />
           <img src={Cisco} alt="Cisco" className="w-50 h-30" />
           <img src={Volvo} alt="Volvo" className="w-50 h-30" />
